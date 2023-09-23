@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "ClassLibrary1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ClassLibrary1/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary1/ClassLibrary1.csproj",
+      "msbuildProject": "../ClassLibrary1/ClassLibrary1.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "ClassLibrary1 >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Al-Quods\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\ITI\\BackEnd\\Test\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "G:\\ITI\\Personal\\rerer\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "G:\\ITI\\BackEnd\\Test\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectPath": "G:\\ITI\\Personal\\rerer\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\Al-Quods\\.nuget\\packages\\",
-      "outputPath": "G:\\ITI\\BackEnd\\Test\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "outputPath": "G:\\ITI\\Personal\\rerer\\ConsoleApp1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Al-Quods\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "G:\\ITI\\Personal\\rerer\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj": {
+              "projectPath": "G:\\ITI\\Personal\\rerer\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\ITI\\BackEnd\\Test\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj": {}
+    "G:\\ITI\\Personal\\rerer\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj": {}
   },
   "projects": {
-    "G:\\ITI\\BackEnd\\Test\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj": {
+    "G:\\ITI\\Personal\\rerer\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\ITI\\BackEnd\\Test\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj",
+        "projectUniqueName": "G:\\ITI\\Personal\\rerer\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj",
         "projectName": "ClassLibrary1",
-        "projectPath": "G:\\ITI\\BackEnd\\Test\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj",
+        "projectPath": "G:\\ITI\\Personal\\rerer\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj",
         "packagesPath": "C:\\Users\\Al-Quods\\.nuget\\packages\\",
-        "outputPath": "G:\\ITI\\BackEnd\\Test\\ConsoleApp1\\ClassLibrary1\\obj\\",
+        "outputPath": "G:\\ITI\\Personal\\rerer\\ConsoleApp1\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Al-Quods\\AppData\\Roaming\\NuGet\\NuGet.Config",
